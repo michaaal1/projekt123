@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl_PL">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Michał Jakubowski">
+	<meta name="description" content="Witryna edukacyjna">
+	<title>STRONA GŁÓWNA</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+  <ul class="menu">
+    <li><a href="index.html">Strona główna</a></li>
+    <li><a href="galeria.html">Galeria zdjęć</a></li>
+    <li><a href="plan.html">Plan lekcji</a></li>
+    <li><a href="ciekawostki.html">Ciekawostki</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+  </ul>
+</nav>
+  <header>
+    <img src="img/baner.jpg" alt="Baner witryny" style="width: 100%; height: 600px;">
+  </header>
+
+  <main>
+
+    <h1>Dzień dobry!</h1>
+    <hr>
+    <h2>Słowem wstępu...</h2>
+    <p>
+      Ta witryna została stworzona jako <strong>projekt szkolny</strong>. Zawiera galerię zdjęć, plan lekcji, ciekawostki oraz formularz kontaktowy. Z dziecinną łatwością możesz przemieszczać się między stronami dzięki <strong>menu nawigacyjnemu</strong>, zlokalizowaym na pasku na górze.
+    </p>
+
+    <div class="slides">
+  		<input id="radio1" type="radio" name="slides" checked>
+  		<div class="slide">
+  			<img src="img/slider1.jpg">
+  			<div class="caption">W POKOJU NAUCZYCIELSKIM</div>
+  			<label class="last" for="radio3">&lt;</label>
+  			<label class="next" for="radio2">&gt;</label>
+  		</div>
+
+  		<input id="radio2" type="radio" name="slides">
+  		<div class="slide">
+  			<img src="img/slider2.jpg">
+  			<div class="caption">NASZA KLASA</div>
+  			<label class="last" for="radio1">&lt;</label>
+  			<label class="next" for="radio3">&gt;</label>
+  		</div>
+
+  		<input id="radio3" type="radio" name="slides">
+  		<div class="slide">
+  			<img src="img/slider3.jpg">
+  			<div class="caption">MATURA 2025</div>
+  			<label class="last" for="radio2">&lt;</label>
+  			<label class="next" for="radio1">&gt;</label>
+  		</div>
+  	</div>
+
+  
+    <h2>Co znajdziesz na stronie?</h2>
+    <ul class="info-list">
+      <li>Galeria zdjęć z wydarzeń szkolnych</li>
+      <li>Plan lekcji</li>
+      <li>Ciekawostki edukacyjne</li>
+      <li>Formularz kontaktowy</li>
+    </ul>
+
+  <footer class="footer">
+  <p>© Michał Jakubowski 2025 | Klasa 2A</p>
+  <div class="footer-icons">
+    <a href="https://facebook.com" target="_blank">
+      <img src="img/facebook.png" alt="Facebook" width="24">
+    </a>
+    <a href="https://instagram.com" target="_blank">
+      <img src="img/instagram.png" alt="Instagram" width="24">
+    </a>
+  </div>
+</footer>
+</body>
+</html>
